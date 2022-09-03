@@ -8,7 +8,7 @@ export const RemotionVideo: React.FC = () => {
 			<Composition
 				id="LoadingScreen"
 				component={LoadingScreen}
-				durationInFrames={9 * 6}
+				durationInFrames={70}
 				fps={30}
 				width={1920}
 				height={1080}

@@ -1,5 +1,6 @@
 import {AbsoluteFill} from 'remotion';
 import {Mascot} from '../components/Mascot';
+import {Text} from '../components/Text';
 
 export const LoadingScreen = () => {
 	return (
@@ -8,9 +9,7 @@ export const LoadingScreen = () => {
 				<div className="opacity-80 pr-8">
 					<Mascot />
 				</div>
-				<div className="text-gray-700 uppercase text-3xl tracking-widest font-light italic animate-pulse">
-					Loading...
-				</div>
+				<Text pulse>Loading...</Text>
 			</AbsoluteFill>
 		</AbsoluteFill>
 	);
