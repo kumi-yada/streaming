@@ -1,17 +1,17 @@
 import {Composition} from 'remotion';
-import {MyComposition} from './Composition';
+import {LoadingScreen} from './LoadingScreen';
 import './style.css';
 
 export const RemotionVideo: React.FC = () => {
 	return (
 		<>
 			<Composition
-				id="MyComp"
-				component={MyComposition}
+				id="LoadingScreen"
+				component={LoadingScreen}
 				durationInFrames={240}
 				fps={30}
-				width={1280}
-				height={720}
+				width={1920}
+				height={1080}
 			/>
 		</>
 	);
