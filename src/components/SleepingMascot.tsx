@@ -1,6 +1,6 @@
 import {staticFile, Video} from 'remotion';
 
-export const Mascot = () => {
+export const SleepingMascot = () => {
 	return (
 		<Video
 			src={staticFile('mascot.webm')}
